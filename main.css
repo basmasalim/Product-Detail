@@ -1,0 +1,73 @@
+/*^ =======>  Typography <======= */
+.main-color{
+  color: #12263a;
+
+}
+/*& =======>  Layout  <======= */
+.product-link,
+.img-showcase{
+  transition: all 0.5s ease;
+}
+.img-showcase img{
+  min-width: 100%;
+}
+.img-item{
+  margin: 0.3rem;
+}
+.product-link:hover,
+.img-item:hover{
+  opacity: 0.8;
+}
+.product-content{
+  padding: 2rem 1rem;
+}
+.product-title{
+  margin: 1rem 0;
+}
+.product-title::after{
+  content: '';
+  position: absolute;
+  left: 0%;
+  bottom: -5%;
+  height: 2.7px;
+  width: 60px;
+  background-color: #12263a;
+}
+.last-price span{
+  color: #f64749;
+  text-decoration: line-through;
+}
+.new-price span{
+  color: #256eff;
+}
+.product-details ul li{
+  background: url(images/checked.png) left center no-repeat;
+  background-size: 18px;
+  padding-left: 1.7rem;
+  margin: 0.4rem 0;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.product-details ul li span{
+  font-weight: 400;
+}
+.purchase-info input,
+.purchase-info .btn{
+  border: 0.5px solid #ddd;
+}
+.social-links ul li{
+  display: grid;
+  place-items: center center;
+  width: 30px;
+  height: 30px;
+  border: #ddd solid 1px;
+  border-radius: 10%;
+  margin: 0 0.2rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.social-links ul li:hover{
+  background-color: #ddd;
+  border-color: transparent;
+  color: #ddd;
+}
